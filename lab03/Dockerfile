@@ -1,6 +1,4 @@
-FROM node:12
+FROM amd64/debian
 WORKDIR /usr/src/app
-COPY package.json package*.json ./
-RUN npm install --only=production
-COPY . .
-CMD [ "npm", "start" ]
+COPY server .
+CMD [ "./server" ]

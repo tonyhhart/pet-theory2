@@ -6,9 +6,11 @@ Twelve years ago, Lily started the Pet Theory chain of veterinary clinics. The P
 
 Welcome to the Pet Theory Quest.
 
-## Author: 
+## Authors: 
 
 Martin Omander
+
+Valentin Deleplace
 
 ## Architecture
 
@@ -23,6 +25,6 @@ Qwiklabs Quest based on the presentation "Pet Theory"
 In the lab, you will learn how to build a web app based on Cloud Run, that automatically converts files stored in Google Drive into PDFs stored in segregated Google Drive folders. 
 
 * Develop an application to create a PDF
-* How to create a Dockerfile for a NodeJS application
+* How to create a Dockerfile for a Go application
 * Learn to deploy Cloud Run application
 * Trigger a Cloud Run server based on Cloud Storage
